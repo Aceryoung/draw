@@ -70,7 +70,7 @@ function handleCM(event) {
     const image = canvas.toDataURL();
     const link = document.createElement("a");
     link.href = image;
-    link.download = "PaintJS[🎨]";
+    link.download = "draw";
     link.click();
   }
 if (canvas) {
